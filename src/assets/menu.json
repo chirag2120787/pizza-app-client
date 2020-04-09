@@ -1,0 +1,811 @@
+[{
+        "itemName": "Deine Pizza",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Smiley's Pizza mit legendär lockerem Teigboden, pikante Tomaten-Sauce und zartem Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/deine-pizza.png"
+    },
+    {
+        "itemName": "Smiley's Snack-Rolls (6 Stück)",
+        "itemPrice": "4,85 €",
+        "itemDescription": "geräucherte Putenbrust und Käse im gebackenen Teigmantel",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-snackrolls.png"
+    },
+    {
+        "itemName": "Deine Pizza [Ø 32cm]",
+        "itemPrice": "7,95 €",
+        "itemDescription": "Smiley's Pizza mit legendär lockerem Teigboden, pikante Tomaten-Sauce und zartem Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/deine-pizza.png"
+    },
+    {
+        "itemName": "Pizza Savannah",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit zartem Hähnchenbrustfilet, saftiger Ananas und fruchtiger Curry-Mango-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/aktion_pizza-savanah.png"
+    },
+    {
+        "itemName": "Croque Forest Hills (vegetarisch)",
+        "itemPrice": "7,50 €",
+        "itemDescription": "Vollkorncroque mit Knobi-Creme, Tomate, Mozzarella, Rucola-Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/aktion_croque-forest-hill.png"
+    },
+    {
+        "itemName": "New York Cheesecake 100g",
+        "itemPrice": "2,95 €",
+        "itemDescription": "The American way of Käsekuchen",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/aktion_cheesecake.png"
+    },
+    {
+        "itemName": "Pizza Tampa (vegetarisch, ca. Ø 30cm)",
+        "itemPrice": "7,95 €",
+        "itemDescription": "extra dünn und ohne Rand im Flammkuchen Style <br> mit Sauce Hollandaise, Broccoli, Paprika, Zwiebeln und mit Gouda und knusprigem Hirtenkäse überbacken.",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_tampa.png"
+    },
+    {
+        "itemName": "Pizza Alaska",
+        "itemPrice": "8,90 €",
+        "itemDescription": "mit Räucherlachs, Crème fraîche und Dillspitzen",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-alaska.png"
+    },
+    {
+        "itemName": "Pizza Indiana",
+        "itemPrice": "10,95 €",
+        "itemDescription": "mit Hinterschinken, Cherrytomaten, Rucola und frischem Trentingrana",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_indiana.png"
+    },
+    {
+        "itemName": "Pizza Chicago",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Thunfisch und Zwiebeln",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-chicago.png"
+    },
+    {
+        "itemName": "Pizza Florida",
+        "itemPrice": "10,40 €",
+        "itemDescription": "mit Black Tiger Garnelen, grünem Spargel und Asia-Sauce (süß-sauer-scharf)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-florida.png"
+    },
+    {
+        "itemName": "Pizza Hawaii",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Hinterschinken und Ananas",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-hawaii.png"
+    },
+    {
+        "itemName": "Pizza Hot Dog",
+        "itemPrice": "8,80 €",
+        "itemDescription": "mit Hot-Dog-Würstchen, Röstzwiebeln, Dänischen Gurken, Dänischem Ketchup und Dänischer Remoulade",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-hot-dog.png"
+    },
+    {
+        "itemName": "Pizza Hot San Antonio (sehr scharf)",
+        "itemPrice": "11,40 €",
+        "itemDescription": "mit geräucherter Putenbrust, Beef, Jalapeños und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-hot-san-antonio.png"
+    },
+    {
+        "itemName": "Pizza Kansas",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Peperonisalami und frischen Champignons",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-kansas.png"
+    },
+    {
+        "itemName": "Pizza New Orleans",
+        "itemPrice": "10,95 €",
+        "itemDescription": "mit geräucherter Putenbrust, Broccoli, grünem Spargel und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-new-orleans.png"
+    },
+    {
+        "itemName": "Pizza Pittsburgh",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Hähnchenbrustfilet, Blattspinat, Knoblauch und Crème fraîche",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-pittsburgh.png"
+    },
+    {
+        "itemName": "Pizza San Diego",
+        "itemPrice": "11,95 €",
+        "itemDescription": "mit Salami, Hirtenkäse, frischen Champignons, Artischockenherzen und milden Peperoni",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-san-diego.png"
+    },
+    {
+        "itemName": "Pizza San Francisco",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Hinterschinken und frischen Champignons",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-san-francisco.png"
+    },
+    {
+        "itemName": "Pizza Seattle (sehr scharf)",
+        "itemPrice": "10,45 €",
+        "itemDescription": "mit Curry-Chicken, Zwiebeln, Jalapeños und Barbecue-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-seattle.png"
+    },
+    {
+        "itemName": "Pizza Texas",
+        "itemPrice": "11,40 €",
+        "itemDescription": "mit Baconwürfeln, Beef, Mais und Barbecue-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-texas.png"
+    },
+    {
+        "itemName": "Pizza Toronto",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Thunfisch, Ei und Honig-Senf-Dill-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-toronto.png"
+    },
+    {
+        "itemName": "Pizza Utah",
+        "itemPrice": "11,40 €",
+        "itemDescription": "mit Salami, Tomate, Mozzarella und Rucola",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_utah.png"
+    },
+    {
+        "itemName": "Pizza Wyoming (vegetarisch)",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Gouda, Mozzarella, Gorgonzola und Hirtenkäse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-wyoming.png"
+    },
+    {
+        "itemName": "Pizza Buffalo",
+        "itemPrice": "9,35 €",
+        "itemDescription": "mit Bauernschinken und einem Becher (Größe X-Large zwei Becher) Sour Cream (100 ml)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-buffalo.png"
+    },
+    {
+        "itemName": "Pizza St. Louis",
+        "itemPrice": "10,90 €",
+        "itemDescription": "mit Beef, Zwiebeln, Tomate und Dänischer Remoulade",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-st-louis.png"
+    },
+    {
+        "itemName": "Pizza Vegetarian Island (vegetarisch)",
+        "itemPrice": "9,95 €",
+        "itemDescription": "mit Broccoli, Mais, Paprika und frischen Champignons",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-vegetarian-island.png"
+    },
+    {
+        "itemName": "Pizza Oceanside (sehr scharf)",
+        "itemPrice": "11,40 €",
+        "itemDescription": "mit Black Tiger Garnelen, Baconwürfeln, Jalapeños und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-oceanside.png"
+    },
+    {
+        "itemName": "Pizza Montana",
+        "itemPrice": "9,90 €",
+        "itemDescription": "mit Rindersteakstreifen, Broccoli und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-montana.png"
+    },
+    {
+        "itemName": "Pizza New Arizona",
+        "itemPrice": "10,35 €",
+        "itemDescription": "mit Hähnchen-Döner, Knoblauch und Zwiebeln, dazu ein Becher (Größe Medium zwei Becher, Größe X-Large drei Becher) Tzatziki (100 ml)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-new-arizona.png"
+    },
+    {
+        "itemName": "Pizza China Town",
+        "itemPrice": "10,45 €",
+        "itemDescription": "mit Hähnchenbrustfilet, Ananas, Paprika und Asia-Sauce (süß-sauer-scharf)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-china-town.png"
+    },
+    {
+        "itemName": "Pizza Pasadena (vegetarisch)",
+        "itemPrice": "10,20 €",
+        "itemDescription": "Vollkornpizza aus Dinkel-, Roggen- und Weizenmischung mit Hirtenkäse, Blattspinat und Cherry-Tomaten",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_pasadena.png"
+    },
+    {
+        "itemName": "Pizza Dallas",
+        "itemPrice": "8,95 €",
+        "itemDescription": "mit doppelt Salami auf dem Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-dallas.png"
+    },
+    {
+        "itemName": "Pizza New Holland (vegetarisch)",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit grünem Spargel, Broccoli und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-new-holland.png"
+    },
+    {
+        "itemName": "Pizza Bakersfield",
+        "itemPrice": "10,40 €",
+        "itemDescription": "mit Sucuk, Artischockenherzen, Hirtenkäse und Knoblauch",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-bakersfield.png"
+    },
+    {
+        "itemName": "Pizza Boston",
+        "itemPrice": "9,90 €",
+        "itemDescription": "mit Räucherlachs, Broccoli und Honig-Senf-Dill-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-boston.png"
+    },
+    {
+        "itemName": "Pizza Hot Tucson (sehr scharf)",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Peperonisalami, Jalapeños und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-hot-tucson.png"
+    },
+    {
+        "itemName": "Pizza California",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Baconwürfeln, Ei und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-california.png"
+    },
+    {
+        "itemName": "Pizza Kentucky",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Currychicken und Ananas",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-kentucky.png"
+    },
+    {
+        "itemName": "Pizza Virginia (vegetarisch)",
+        "itemPrice": "8,45 €",
+        "itemDescription": "mit Hirtenkäse und Tomate",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-virginia.png"
+    },
+    {
+        "itemName": "Pizza Memphis",
+        "itemPrice": "10,45 €",
+        "itemDescription": "mit Hähnchenbrustfilet, Blattspinat, Cherry-Tomaten, Knoblauch und Knoblauch-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-memphis.png"
+    },
+    {
+        "itemName": "Pizza Washington (sehr scharf)",
+        "itemPrice": "14,40 €",
+        "itemDescription": "mit geräucherter Putenbrust, Beef, Jalapeños, Paprika, frischen Champignons, Zwiebeln und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-washington.png"
+    },
+    {
+        "itemName": "Pizza Denver",
+        "itemPrice": "9,45 €",
+        "itemDescription": "mit Salami, frischen Champignons und Zwiebeln",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-denver.png"
+    },
+    {
+        "itemName": "Pizza Santa Maria (vegetarisch)",
+        "itemPrice": "12,20 €",
+        "itemDescription": "100 % Vollkornpizza aus einer Dinkel-, Roggen- und Weizenmischung mit Broccoli, Hirtenkäse, milden Peperoni, frischen Champignons und Asia-Sauce (süß-sauer-scharf)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_santa-maria.png"
+    },
+    {
+        "itemName": "Pizza El Paso (vegetarisch)",
+        "itemPrice": "9,90 €",
+        "itemDescription": "mit Mozzarella, Tomate, frischen Champignons und einer Prise Basilikum",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-el-paso.png"
+    },
+    {
+        "itemName": "Pizza New Bern",
+        "itemPrice": "10,45 €",
+        "itemDescription": "mit Peperonisalami, frischen Champignons, Zwiebeln und Crème fraîche",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-new-bern.png"
+    },
+    {
+        "itemName": "Pizza Charlotte",
+        "itemPrice": "11,20 €",
+        "itemDescription": "Vollkornpizza mit frischen Champignons, Paprika, Mais und knusprigem Hirtenkäse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza_charlotte.png"
+    },
+    {
+        "itemName": "Pizza Tacoma",
+        "itemPrice": "11,40 €",
+        "itemDescription": "mit Beef (100% gewürztes Rindfleisch), Blattspinat, Hirtenkäse und Knoblauch-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-tacoma.png"
+    },
+    {
+        "itemName": "Calzone (ca. 20cm)",
+        "itemPrice": "9,25 €",
+        "itemDescription": "Pizza als Tasche, gefüllt mit Salami, Hinterschinken, frischen Champignons und überbacken mit Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-calzone.png"
+    },
+    {
+        "itemName": "Pizza Jackson (ca. Ø 30cm)",
+        "itemPrice": "7,75 €",
+        "itemDescription": "extra dünne Pizza ohne Rand, im Flammkuchenstyle mit Crème fraîche, Baconwürfeln, Zwiebeln und zartem Gouda überbacken",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-jackson.png"
+    },
+    {
+        "itemName": "Deine Pizza",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Smiley's Pizza mit legendär lockerem Teigboden, pikante Tomaten-Sauce und zartem Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/deine-pizza.png"
+    },
+    {
+        "itemName": "Ring of Fire (ca. 20cm, sehr scharf)",
+        "itemPrice": "9,35 €",
+        "itemDescription": "Pizza-Ring saftig gefüllt mit Beef, Zwiebeln, Jalapeños, Käse, Sauce Hollandaise und mit zartem Käse überbacken",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-ring-of-fire.png"
+    },
+    {
+        "itemName": "Pasta Rocky Mountains",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit Bolognesesauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-rocky-mountains.png"
+    },
+    {
+        "itemName": "Pasta Grand Canyon",
+        "itemPrice": "7,95 €",
+        "itemDescription": "mit Hinterschinken, Blattspinat und Sahne-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta_grand-canyon.png"
+    },
+    {
+        "itemName": "Pasta Hot Springs",
+        "itemPrice": "7,95 €",
+        "itemDescription": "mit Rucola, Cherrytomaten, Tomaten-Sauce und frischem Trentingrana",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-hot-springs.png"
+    },
+    {
+        "itemName": "Pasta Yellowstone",
+        "itemPrice": "7,95 €",
+        "itemDescription": "mit Curry-Chicken, Ananas und Sahne-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-yellowstone.png"
+    },
+    {
+        "itemName": "Pasta Key West",
+        "itemPrice": "8,95 €",
+        "itemDescription": "mit Black Tiger Garnelen, grünem Spargel und Sahne-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-key-west.png"
+    },
+    {
+        "itemName": "Pasta Capitol Reef (scharf)",
+        "itemPrice": "8,95 €",
+        "itemDescription": "mit Beef, Hirtenkäse, Jalapeños und Käse-Kräuter-Sahne-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-capitol-reef.png"
+    },
+    {
+        "itemName": "Pasta Mesa-Verde",
+        "itemPrice": "8,95 €",
+        "itemDescription": "mit Rindersteakstreifen, frischen Champignons und Sahne-Sauce",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-mesa-verde.png"
+    },
+    {
+        "itemName": "Auflauf Gardenstate",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Auflauf mit Broccoli, Zwiebeln, Cherry-Tomaten, frischen Champignons, Paprika, mit Chili und Sauce verfeinert sowie mit zartem Käse überbacken.",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/auflauf-gardenstate.png"
+    },
+    {
+        "itemName": "Croque Broadway",
+        "itemPrice": "8,20 €",
+        "itemDescription": "mit geräucherter Putenbrust, Ananas, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-broadway.png"
+    },
+    {
+        "itemName": "Croque Brooklyn",
+        "itemPrice": "7,50 €",
+        "itemDescription": "mit Hot Dog-Würstchen, Röstzwiebeln, Dänischer Remoulade, Dänischem Ketchup, Dänischen Gurken und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-brooklyn.png"
+    },
+    {
+        "itemName": "Croque Wall Street",
+        "itemPrice": "7,90 €",
+        "itemDescription": "mit geräucherter Putenbrust, Tomate, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-wall-street.png"
+    },
+    {
+        "itemName": "Croque Central Park (mit Knoblauch)",
+        "itemPrice": "8,25 €",
+        "itemDescription": "mit Bauernschinken, Rucola-Salat, Knoblauch-Crème und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-central-park.png"
+    },
+    {
+        "itemName": "Croque Coney Island",
+        "itemPrice": "7,70 €",
+        "itemDescription": "mit Hinterschinken, Ananas, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-coney-island.png"
+    },
+    {
+        "itemName": "Croque Kingston Avenue",
+        "itemPrice": "7,50 €",
+        "itemDescription": "mit Hinterschinken, Tomate, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-kingston-avenue.png"
+    },
+    {
+        "itemName": "Croque Neptune",
+        "itemPrice": "8,20 €",
+        "itemDescription": "mit Thunfisch, Tomate, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-neptune.png"
+    },
+    {
+        "itemName": "Croque Grand Central (mit Knoblauch)",
+        "itemPrice": "8,25 €",
+        "itemDescription": "mit Hähnchen-Döner, Zwiebeln, Salat, Käse und Tzatziki",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-grand-central.png"
+    },
+    {
+        "itemName": "Croque Queens (vegetarisch)",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit Tomate, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-queens.png"
+    },
+    {
+        "itemName": "Croque Times Square",
+        "itemPrice": "7,50 €",
+        "itemDescription": "mit Salami, Tomate, Salat und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-times-square.png"
+    },
+    {
+        "itemName": "Knoblauchbrot",
+        "itemPrice": "2,20 €",
+        "itemDescription": "mit Knoblauchcreme",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/croque-knoblauchbrot.png"
+    },
+    {
+        "itemName": "Wrap Mississippi (mit Knoblauch)",
+        "itemPrice": "5,45 €",
+        "itemDescription": "gebackene Weizentortilla mit Thunfisch, Hirtenkäse, Zwiebeln, Knoblauch-Sauce und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/wrap-mississippi.png"
+    },
+    {
+        "itemName": "Wrap Hudson",
+        "itemPrice": "5,45 €",
+        "itemDescription": "gebackene Weizentortilla mit Hähnchenbrustfilet, Asia-Sauce (süß-sauer-scharf), Crème fraîche und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/wrap-hudson.png"
+    },
+    {
+        "itemName": "Wrap Rio Grande",
+        "itemPrice": "5,45 €",
+        "itemDescription": "gebackene Weizentortilla mit Beef, Baconwürfeln, Barbecue-Sauce, Crème fraîche und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/wrap-rio-grande.png"
+    },
+    {
+        "itemName": "Gemischter Salat (vegetarisch)",
+        "itemPrice": "4,95 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Zwiebeln, milden Peperoni, Oliven und Mais",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-gemischt.png"
+    },
+    {
+        "itemName": "Thunfisch-Salat",
+        "itemPrice": "6,75 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Zwiebeln, milden Peperoni, Oliven, Mais und Thunfisch",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-thunfisch.png"
+    },
+    {
+        "itemName": "Hirten-Salat (vegetarisch)",
+        "itemPrice": "6,75 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Zwiebeln, milden Peperoni, Oliven und Hirtenkäse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-hirten.png"
+    },
+    {
+        "itemName": "Chef-Salat",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Ei, Hinterschinken, Mais und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-chef.png"
+    },
+    {
+        "itemName": "Rucola-Chicken-Salat",
+        "itemPrice": "7,55 €",
+        "itemDescription": "Eisbergsalat mit Rucola, Ananas, Mais, gebratenem Hähnchenbrustfilet, Cherry-Tomaten und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-rucola-chicken.png"
+    },
+    {
+        "itemName": "Hähnchenbrust-Salat",
+        "itemPrice": "7,55 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, frischen Champignons, Paprika, Mais und gebratenem Hähnchenbrustfilet",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-haenchenbrust.png"
+    },
+    {
+        "itemName": "Spezial-Salat",
+        "itemPrice": "7,55 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Zwiebeln, Hirtenkäse, Thunfisch, Mais und Ei",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-spezial.png"
+    },
+    {
+        "itemName": "Caesar Salad",
+        "itemPrice": "8,45 €",
+        "itemDescription": "Römersalat mit Hähnchenbrustfilet, Black Tiger Garnelen, Croutons und frischem Trentingrana",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-caesar.png"
+    },
+    {
+        "itemName": "Kleiner Beilagensalat (vegetarisch)",
+        "itemPrice": "2,95 €",
+        "itemDescription": "Eisbergsalat mit Cherry-Tomaten, Mais, Gurke und American-Dressing (50ml)",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-beilage.png"
+    },
+    {
+        "itemName": "Chicken Wings (8 Stück)",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Für kleine Mäuse <br> • Pibo-Pizza von ca. 18 cm mit Käse und Tomatensauce dazu sind 2 vergünstigten Pibo-Beläge nach Wahl möglich <br> • Capri-Sun Orange <br> • Lolli",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-chicken-wings.png"
+    },
+    {
+        "itemName": "Chicken Wings (16 Stück)",
+        "itemPrice": "10,95 €",
+        "itemDescription": "Burger (125 g Beef) im Smiley's Pizza-Teig, mit Dänischem Ketchup, Dänischen Gurken, Tomate sowie Cheddar Schmelzkäse gefüllt und mit zartem Käse überbacken",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-chicken-wings.png"
+    },
+    {
+        "itemName": "Crispy Chicken Fingers (4 Stück)",
+        "itemPrice": "4,95 €",
+        "itemDescription": "Die legendären Smiley's-Brötchen",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-crispy-chicken-fingers-dip.png"
+    },
+    {
+        "itemName": "Kindermenü",
+        "itemPrice": "4,85 €",
+        "itemDescription": "Die legendären Smiley's-Brötchen mit Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/kindermenue.png"
+    },
+    {
+        "itemName": "Smiley's Pizza Burger",
+        "itemPrice": "7,95 €",
+        "itemDescription": "geräucherte Putenbrust und Käse im gebackenen Teigmantel",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/aktion-pizza-burger.png"
+    },
+    {
+        "itemName": "Smiley's Pizzabrötchen (4 Stück)",
+        "itemPrice": "2,85 €",
+        "itemDescription": "mit Käse überbacken, dazu Hot Chilis",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-pizza-broetchen.png"
+    },
+    {
+        "itemName": "Smiley's Pizzabrötchen mit Käse (4 Stück)",
+        "itemPrice": "3,75 €",
+        "itemDescription": "Portionsbecher",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-pizza-broetchen-kaese.png"
+    },
+    {
+        "itemName": "Smiley's Snack-Rolls (6 Stück)",
+        "itemPrice": "4,85 €",
+        "itemDescription": "Portionsbecher",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-snackrolls.png"
+    },
+    {
+        "itemName": "Smiley's Knobi-Sticks (mit Knoblauch)",
+        "itemPrice": "3,95 €",
+        "itemDescription": "Portionsbecher",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-knobi-sticks.png"
+    },
+    {
+        "itemName": "Smiley's Pizza-Dip 100ml",
+        "itemPrice": "1,50 €",
+        "itemDescription": "Wrapteig gefüllt und gebacken mit Schoko-Milch-Riegel",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-dip-pizza-dip.png"
+    },
+    {
+        "itemName": "Sour Cream 100ml",
+        "itemPrice": "1,50 €",
+        "itemDescription": "Ø ca. 18cm <br> Pizzateigboden mit Nuss- Nougat-Crème gefüllt und leckerem Pancake-Teig überbacken <br> krönender Abschluss nach dem Backen ist ein extra Topping aus Nuss-Nougat-Creme",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-dip-sour-cream.png"
+    },
+    {
+        "itemName": "Tzatziki 100ml",
+        "itemPrice": "1,50 €",
+        "itemDescription": "Miss Chocoholic Muffins mit 3 Schokosorten und Nuss-Nougat-Füllung",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/snack-dip-tzatziki.png"
+    },
+    {
+        "itemName": "Smiley's Schoko-Röllchen (2 Stück)",
+        "itemPrice": "2,45 €",
+        "itemDescription": "mit Alkohol",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-schokoroellchen.png"
+    },
+    {
+        "itemName": "Pancake",
+        "itemPrice": "4,45 €",
+        "itemDescription": "heller Cookie mit zwei verschiedenen belgischen Schokoladen",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/smileys-pancake_500x500.png"
+    },
+    {
+        "itemName": "XL-Mega-Muffin 130g",
+        "itemPrice": "2,20 €",
+        "itemDescription": "Dunkler Cookie mit drei verschiedenen belgischen Schokoladen",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-muffin.png"
+    },
+    {
+        "itemName": "Tiramisu 90g",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Weißwein",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-tiramisu.png"
+    },
+    {
+        "itemName": "Cookie Double Choc",
+        "itemPrice": "1,35 €",
+        "itemDescription": "Rotwein",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/cookie_double_choc.png"
+    },
+    {
+        "itemName": "Cookie Triple Choc",
+        "itemPrice": "1,35 €",
+        "itemDescription": "Roséwein",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert_triple-choc.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Cookie Dough 100ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Eisbergsalat mit Tomate, Gurke, Ei, Hinterschinken, Mais und Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-bj-cookie-dough.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Cookie Dough 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit Rucola, Cherrytomaten, Tomaten-Sauce und frischem Trentingrana",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-bj-cookie-dough.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Half Baked 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit Räucherlachs, Crème fraîche und Dillspitzen",
+        "itemImage": "static.lieferando.de/images/chains/de/benjerrys/products/benjerry500ml_halfbaked.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Chocolate Fudge Brownie 100ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "mit grünem Spargel, Broccoli und Sauce Hollandaise",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/chocolate-fudge-brownie.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Chocolate Fudge Brownie 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit Hinterschinken und Ananas",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/chocolate-fudge-brownie.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Blondie Brownie 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "mit doppelt Salami auf dem Käse",
+        "itemImage": "static.lieferando.de/images/chains/de/benjerrys/products/benjerry500ml_blondiebrowniecore.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Peanut Butter Cup 100ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/benjerrys/products/benjerry100ml_peanutbuttercup.png"
+    },
+    {
+        "itemName": "Ben & Jerry's Peanut Butter Cup 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/benjerrys/products/benjerry500ml_peanutbuttercup.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Strawberry Cheesecake 95ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-strawberry-cheesecake.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Strawberry Cheesecake 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-strawberry-cheesecake.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Cookies & Cream 95ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-cookies-cream.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Cookies & Cream 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-cookies-cream.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Vanilla Caramel Brownie 95ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-vanilla-caramal-brownie.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Vanilla Caramel Brownie 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-vanilla-caramal-brownie.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Macadamia Nut Brittle 95ml",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-macadamia-nut-brittle.png"
+    },
+    {
+        "itemName": "Häagen-Dazs Macadamia Nut Brittle 460ml",
+        "itemPrice": "6,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/dessert-hd-macadamia-nut-brittle.png"
+    },
+    {
+        "itemName": "Coca-Cola 1,0l (MEHRWEG)",
+        "itemPrice": "2,70 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_coca-cola.png"
+    },
+    {
+        "itemName": "Coca-Cola light 1,0l (MEHRWEG)",
+        "itemPrice": "2,70 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_coca-cola-light.png"
+    },
+    {
+        "itemName": "Sprite 1,0l (MEHRWEG)",
+        "itemPrice": "2,70 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_sprite.png"
+    },
+    {
+        "itemName": "Fanta 1,0l (MEHRWEG)",
+        "itemPrice": "2,70 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_fanta.png"
+    },
+    {
+        "itemName": "Mezzo Mix 1,0l (MEHRWEG)",
+        "itemPrice": "2,70 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_mezzo-mix.png"
+    },
+    {
+        "itemName": "Vio Medium 0,5l (EINWEG)",
+        "itemPrice": "1,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_vio-medium.png"
+    },
+    {
+        "itemName": "Warsteiner 0,5l (MEHRWEG)",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_bier_pils.png"
+    },
+    {
+        "itemName": "Franziskaner Hefeweizen 0,5l (MEHRWEG)",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_bier_weizen.png"
+    },
+    {
+        "itemName": "Grauburgunder 0,75l",
+        "itemPrice": "8,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_wein-grauburgunder.png"
+    },
+    {
+        "itemName": "Merlot 0,75l",
+        "itemPrice": "8,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_wein-merlot.png"
+    },
+    {
+        "itemName": "Bardolino Rosé 0,75l",
+        "itemPrice": "8,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/drinks_wein-bardolino-chiaretto.png"
+    },
+    {
+        "itemName": "Augustiner 1293 0,5l (MEHRWEG)",
+        "itemPrice": "2,50 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/salat-chef.png"
+    },
+    {
+        "itemName": "A. Chef-Salat",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pasta-hot-springs.png"
+    },
+    {
+        "itemName": "B. Pasta Hot Springs",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-alaska.png"
+    },
+    {
+        "itemName": "C. Pizza Alaska",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-new-holland.png"
+    },
+    {
+        "itemName": "D. Pizza New Holland (vegetarisch)",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-hawaii.png"
+    },
+    {
+        "itemName": "E. Pizza Hawaii",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "static.lieferando.de/images/chains/de/smileys/products/pizza-dallas.png"
+    },
+    {
+        "itemName": "F. Pizza Dallas",
+        "itemPrice": "5,95 €",
+        "itemDescription": "Random Description",
+        "itemImage": "placeholder.png"
+    }
+]

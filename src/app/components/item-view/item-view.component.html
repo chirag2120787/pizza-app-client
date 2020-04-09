@@ -1,0 +1,13 @@
+<div class="col-md-4">
+  <div class="card border-dark bg-light" style="width: 18rem;">
+    <img class="card-img-top" src="//{{menuItem.itemImage}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" >{{menuItem.itemName}}</h5>
+      <p class="card-text" >{{menuItem.itemDescription}}</p>
+      <button href="#" class="btn btn-primary" (click)="addToCart(menuItem)">Add to Cart</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="showAlert" class="alert alert-success" role="alert">
+  Item {{menuItem.itemName}} is added to the cart!
+</div>
