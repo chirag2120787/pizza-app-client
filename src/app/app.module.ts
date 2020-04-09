@@ -3,26 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ItemViewComponent } from './components/item-view/item-view.component';
-import { MenuComponent } from './components/menu/menu.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MenuComponent,
-    ItemViewComponent,
-    HeaderComponent,
-    FooterComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    MatSnackBar,
+    ComponentsModule,
     AppRoutingModule,
-    ItemViewComponent,
-    MenuComponent,
-    HeaderComponent,
-    FooterComponent
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
