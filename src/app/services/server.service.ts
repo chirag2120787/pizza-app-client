@@ -7,7 +7,7 @@ import { Observable, throwError } from 'rxjs';
 
 export class ServerService {
 
-  apiURL = 'https://nameless-stream-09863.herokuapp.com/';
+  apiURL = 'https://nameless-stream-09863.herokuapp.com';
 
   constructor(private http: HttpClient) { }
   httpOptions = {
