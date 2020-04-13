@@ -7,10 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CartViewComponent } from './cart-view/cart-view.component';
 import { HomeComponent } from './home/home.component';
-import { NgxSpinnerModule } from 'ngx-spinner';
+import { NgxSpinnerModule, NgxSpinnerService } from 'ngx-spinner';
 @NgModule({
     imports: [BrowserModule, MatSelectModule, NgxSpinnerModule],
     exports: [ItemViewComponent, MenuComponent, HeaderComponent, FooterComponent],
+    providers: [NgxSpinnerService],
     declarations: [ItemViewComponent, MenuComponent, HeaderComponent, FooterComponent, CartViewComponent, HomeComponent]
 })
 export class ComponentsModule { }
