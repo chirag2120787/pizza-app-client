@@ -3,6 +3,7 @@ import { CartService } from 'src/app/services/cart.service';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { ServerService } from 'src/app/services/server.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 
 @Component({
@@ -17,12 +18,13 @@ export class CartViewComponent implements OnInit {
 
   constructor(private cartService: CartService,
     private location: Location, private router: Router,
-    private serverService: ServerService) { }
+    private serverService: ServerService,
+    private spinnerService: NgxSpinnerService) { }
 
   cartData;
   cartTotal;
   deliveryCharge = 3.25;
-  user = { name: '', email: '', phone: '' };
+  user = { name: '', email: '', phone: '', address: '' };
 
   ngOnInit() {
     this.updateCartData(this.cartService.cartData)
@@ -66,9 +68,13 @@ export class CartViewComponent implements OnInit {
     this.user.phone = phone;
   }
 
+  updateAddress(address) {
+    this.user.address = address;
+  }
+
   validateForm() {
     const emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    const nameRegex = RegExp('^[a-zA-Z]+(([\',. -][a-zA-Z ])?[a-zA-Z]*)*$');
+    const nameRegex = RegExp('^[a-zA-Z\x7f-\xff]+(([\',. -][a-zA-Z \x7f-\xff])?[a-zA-Z]*)*$');
     const phoneRegex = RegExp('^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$');
     if (this.user.email === '' || !emailRegex.test(this.user.email)) {
       this.invalidEmail = true;
@@ -87,12 +93,14 @@ export class CartViewComponent implements OnInit {
 
   onCompleteOrder() {
     if (this.validateForm()) {
+      this.spinnerService.show();
       this.serverService.createOrder({
         cartData: this.cartData,
         cartTotal: this.cartTotal,
         userDetails: this.user
       }).subscribe((orderCreateResponse) => {
-        alert(orderCreateResponse.message);
+        this.spinnerService.hide();
+        alert('Please check your email for the order details.');
         window.location.replace('');
         this.cartService.reloadApp.emit('true');
       });
