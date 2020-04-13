@@ -29,7 +29,6 @@ export class MenuComponent implements OnInit {
   }
 
   goTo(pageNumber) {
-    console.log(pageNumber)
     this.currentPage = pageNumber;
     if (pageNumber + 1 !== this.numberOfPages.length) {
       if (pageNumber !== 0) {
