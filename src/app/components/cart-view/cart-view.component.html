@@ -1,0 +1,83 @@
+<div class="container">
+
+    <div class="row">
+        <table class="table table-dark">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item</th>
+            <th scope="col">Details</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+            <th scope="col">Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cartItem of cartData; let id = index">
+                <th scope="row">{{id+1}}</th>
+                <td><img src='//{{cartItem.menuItem.itemImage}}' style="height:10rem;width:10rem"></td>
+                <td>{{cartItem.menuItem.itemName}}</td>
+                <td>{{cartItem.quantity}}</td>
+                <td>{{cartItem.menuItem.itemPrice}} €</td>
+                <td><button class="btn-light" (click)="removeItem(cartItem.menuItem.id)">Remove</button></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <th>Delivery Charges:</th>
+                <td>{{deliveryCharge}} €</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><button type="button" (click)="navigateToMenu()" class="btn btn-light" style="float:left">Add more items</button></td>
+                <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#orderComplete" data-whatever="@mdo" style="folat:right">Complete</button></td>
+                <th>Total:</th>
+                <td>{{cartTotal}} €</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<div class="modal fade" id="orderComplete" tabindex="-1" role="dialog" aria-labelledby="orderComplete" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderCompleteModal">Enter details to complete the order.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="recipient-name" style="display:flex!important;" class="form-label">Name</label>
+                <input type="text" class="form-control" id="recipient-name" (change)="updateName($event.target.value)" required>
+                 <div *ngIf="invalidUserName" class="invalid-feedback">
+                    Please provide a valid name.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="recipient-email" style="display:flex!important;" class="form-label">Email</label>
+                <input type="email" class="form-control" id="recipient-email" (change)="updateEmail($event.target.value)" required>
+                <div *ngIf="invalidEmail" class="invalid-feedback">
+                    Please provide a valid email.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" style="display:flex!important;" class="col-form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone" (change)="updatePhone($event.target.value)" required>
+                <div *ngIf="invalidPhone" class="invalid-feedback">
+                    Please provide a valid phone.
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" (click)="onCompleteOrder()"class="btn btn-primary">Order Now</button>
+      </div>
+    </div>
+  </div>
+</div>
