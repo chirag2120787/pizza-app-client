@@ -1,21 +1,7 @@
-
-<!--<div class ="">
-    <form class="form-signin">
-      <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Please enter following details to continue..</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPhone" class="sr-only">Password</label>
-      <input type="text" id="inputPhone" class="form-control" placeholder="Phone" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
-    </form>
-</div> -->
-
-
-<router-outlet></router-outlet>
+<div class="wrapper">
+  <app-header></app-header>
+  <div style="padding:8%">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer class="mt-auto border-top px-3 text-right"></app-footer>
+</div>
