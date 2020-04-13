@@ -1,1 +1,30 @@
-<p>header works!</p>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <img class="navbar-brand" src="../../assets/pizza-app-logo.png" style="width:4%">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <button class="nav-link" (click)="navigateToHome()" style="background:#343a40;border:none;font-size: x-large;" >Home <span class="sr-only">(current)</span></button>
+            </li>
+            <li class="nav-item active">
+                <button class="nav-link" (click)="navigateToMenu()" style="background:#343a40;border:none;font-size: x-large;" >Menu <span class="sr-only">(current)</span></button>
+            </li>
+        </ul>
+        <ul class="navbar-nav nav-dropdown mr-2">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-shopping-cart"></i> {{ cartItemsCount }}<span class="caret"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
+                    <a *ngFor="let item of cartItems" class="dropdown-item disabled" href="#"><b>{{item.menuItem.itemName }}</b> x <b>{{item.quantity}}</b> </a>
+                    <button *ngIf="!cartItems" class="dropdown-item disabled" href="#">Cart is Empty</button>
+                    <div *ngIf="cartItems && cartItems.length" class="dropdown-divider"></div>
+                    <span *ngIf="cartItems && cartItems.length" class="dropdown-item">Total: {{cartTotal}} €</span>
+                    <button *ngIf="cartItems"  style="background:slategray"(click)="navigateToCart()" skipLocationChang class="dropdown-item"><i class="fas fa-shopping-cart"></i>  Complete Order</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
