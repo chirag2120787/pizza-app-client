@@ -1,10 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-item-view',
   templateUrl: './item-view.component.html',
-  styleUrls: ['./item-view.component.css']
+  styleUrls: ['./item-view.component.scss']
 })
 export class ItemViewComponent implements OnInit {
 
@@ -12,15 +12,16 @@ export class ItemViewComponent implements OnInit {
   @Input() addToCartEvent;
   showAlert = false;
 
-  constructor(private snackBar: MatSnackBar) { }
+  constructor(private cartService: CartService) { }
 
-  ngOnInit() {
-    console.log(this.menuItem)
-  }
+  ngOnInit() { }
 
-  private addToCart(item){
-    this.snackBar.open(`Item ${item.itemName} is added to the cart!`)
-    console.log(item)
+  addToCart(item) {
+    this.cartService.addToCart.emit(item);
+    this.showAlert = true;
+    setTimeout(() => {
+      this.showAlert = false;
+    }, 1000);
   }
 
 }

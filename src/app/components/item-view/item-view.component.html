@@ -1,10 +1,11 @@
-<div class="col-md-4">
-  <div class="card border-dark bg-light" style="width: 18rem;">
+<div class="col-md-4" style="margin:5%">
+  <div class="card border-dark bg-dark text-light" style="width: 18rem;">
     <img class="card-img-top" src="//{{menuItem.itemImage}}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title" >{{menuItem.itemName}}</h5>
+      <h5 class="card-text"> {{menuItem.itemPrice}} €</h5>
       <p class="card-text" >{{menuItem.itemDescription}}</p>
-      <button href="#" class="btn btn-primary" (click)="addToCart(menuItem)">Add to Cart</button>
+      <button href="#" class="btn btn-light" (click)="addToCart(menuItem)">Add to Cart</button>
     </div>
   </div>
 </div>
