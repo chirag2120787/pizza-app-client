@@ -1,3 +1,17 @@
-<div class="row">
-    <app-item-view *ngFor="let menuItem of appMenu; let id = index;" [menuItem]=menuItem [addToCartEvent]= addToCartEvent> </app-item-view>
-</div>
+    <nav aria-label="Page navigation ">
+        <ul class="pagination justify-content-center">
+            <li class="page-item" [ngClass]="(!previousButton)?'disabled':''"><button class="page-link" (click)= "goToPrevious()">Previous</button></li>
+            <li [ngClass]="(value === currentPage )? 'disabled':''" *ngFor="let pageNumber of numberOfPages; let value = index;" class="page-item"><button class="page-link" (click)= "goTo(value)">{{value+1}}</button></li>
+            <li class="page-item" [ngClass]="(!nextButton)?'disabled':''"><button class="page-link" (click)= "goToNext()">Next</button></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <app-item-view *ngFor="let menuItem of appMenu; let id = index;" [menuItem]=menuItem [addToCartEvent]= addToCartEvent> </app-item-view>
+    </div>
+    <nav aria-label="Page navigation ">
+        <ul class="pagination justify-content-center">
+            <li class="page-item" [ngClass]="(!previousButton)?'disabled':''"><button class="page-link" (click)= "goToPrevious()">Previous</button></li>
+            <li [ngClass]="(value === currentPage )? 'disabled':''" *ngFor="let pageNumber of numberOfPages; let value = index;" class="page-item"><button class="page-link" (click)= "goTo(value)">{{value+1}}</button></li>
+            <li class="page-item" [ngClass]="(!nextButton)?'disabled':''"><button class="page-link" (click)= "goToNext()">Next</button></li>
+        </ul>
+    </nav>
